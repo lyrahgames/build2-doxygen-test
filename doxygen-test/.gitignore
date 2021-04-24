@@ -1,0 +1,5 @@
+doxygen-test
+
+# Testscript output directory (can be symlink).
+#
+test-doxygen-test

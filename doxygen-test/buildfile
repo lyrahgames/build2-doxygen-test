@@ -1,0 +1,11 @@
+libs =
+#import libs += libhello%lib{hello}
+
+exe{doxygen-test}: {hxx ixx txx cxx}{**} $libs testscript
+
+cxx.poptions =+ "-I$out_root" "-I$src_root"
+
+
+# info project = $project
+# info version = $version
+# info summary = $project.summary
